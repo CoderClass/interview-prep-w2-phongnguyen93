@@ -11,10 +11,19 @@ What you will submit:
 
 **Big O Notation**
 
-- [ ] Watch [Big O Notation](https://www.youtube.com/watch?v=v4cd1O4zkGw)(8m)
-  - I have learned that...
-- [ ] Read [Big O Notation in plain English](http://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation) and write down what you learned from it
-  - I have learned that...
+- [X] Watch [Big O Notation](https://www.youtube.com/watch?v=v4cd1O4zkGw)(8m)
+  - Big O is essentially an equation that describes how the runtime scales with respect to some input variables
+  - There are 4 important rules to know with Big O:
+    + If you two different steps in algorithm, you add up those steps.
+    + Drop constants.
+    + Use different variables to represent different inputs.
+    + Drop non-dominate terms.
+- [x] Read [Big O Notation in plain English](http://stackoverflow.com/questions/487258/what-is-a-plain-english-explanation-of-big-o-notation) and write down what you learned from it
+  - Big-O notation is a relative representation of the complexity of an algorithm, it show how an algorithm scales
+    + O(n2): known as Quadratic complexity
+    + O(n): known as Linear complexity
+    + O(1): known as Constant complexity
+    + O(log n): known as Logarithmic complexity
 - [ ] Visit http://bigocheatsheet.com/ and think about how useful it could be to you
   - This sheet makes more sense to me now /OR/ This sheet does not make sense to me.
 - [ ] Watch LogN in 5m: https://www.youtube.com/watch?v=kjDR1NBB9MU
